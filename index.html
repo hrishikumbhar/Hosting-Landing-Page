@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Host Landing Page</title>
     <link rel="stylesheet" href="./css/style.css">
     <link
             rel="stylesheet"
@@ -12,13 +13,19 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
     />
-    <title>Hosting Landing Page</title>
 </head>
 <body>
     <div class="container">
         <nav class="navbar">
-            <div class="logo">
-                <img src="./assets/Logo.png" alt="logo">
+            <div class="nav-logo">
+                <img src="./assets/Logo.png" alt="">
+            </div>
+            <div class="hamburger">
+                <svg viewBox="0 0 100 80" width="30" height="30">
+                    <rect width="100" height="10"></rect>
+                    <rect y="30" width="100" height="10"></rect>
+                    <rect y="60" width="100" height="10"></rect>
+                </svg>
             </div>
             <ul class="list">
                 <li class="list-item">Home</li>
@@ -27,25 +34,43 @@
                 <li class="list-item">Features</li>
                 <li class="list-item">Pricing</li>
                 <li class="list-item">About us</li>
+                <li class="list-item">
+                    <button class="btn-out">Register Now</button>
+                </li>
             </ul>
-            <button class="btn-register ">Register Now</button>
+            <ul class="mobile-list">
+                <li class="list-item">Home</li>
+                <li class="list-item">Domain</li>
+                <li class="list-item">Hosting</li>
+                <li class="list-item">Features</li>
+                <li class="list-item">Pricing</li>
+                <li class="list-item">About us</li>
+                <li class="list-item">
+                    <button class="btn-out">Register Now</button>
+                </li>
+            </ul>
         </nav>
-        <!-- Hero Section -->
+
         <section class="hero">
             <div class="hero-left">
-                <h1>Great Website Start <br> with unlimited <br> Hosting</h1>
+                <h1>
+                    Great Websites Start <br>
+                    with Unlimited <br>
+                    Hosting
+                </h1>
                 <p>We provide the best offer of unlimited web hosting. The most complete <br />
                     features, affordable prices, and 24/7 technical support at your <br />disposal.</p>
-                <button class="btn-choose btn">Choose Package</button>
+                <button class="btn-choose btn">Choose Package</button>    
             </div>
             <div class="hero-right">
-                <img src="./assets/illustrator.svg" alt="illustrator" class="illustrator-img">
+                <img src="./assets/illustrator.svg" alt="">
             </div>
         </section>
+
         <!-- Quality Section -->
         <section class="quality">
             <div class="quality-left">
-                <img src="./assets/quality.svg" alt="quality" class="quality-img">
+                <img src="./assets/quality.svg" alt="">
             </div>
             <div class="quality-right">
                 <h2>We Provide the best <br />quality with low cost</h2>
@@ -53,9 +78,11 @@
                     features will facilitate the website creation process,
                     from Auto-Install <br />
                     Wordpress, cPanel, to free SSL</p>
-                <button class="btn-quality btn">Read More</button>
+                <button class="btn-quality btn">Read more</button>
             </div>
         </section>
+
+        <!-- Technical Section -->
         <section class="technical">
             <div class="technical-left">
                 <h2>
@@ -70,13 +97,14 @@
                     resloved quickly and in real-time via intercom's
                     live-chat.
                 </p>
-                <button class="btn-technical btn">Read More</button>
+                <button class="btn-choose btn">Read more</button>    
             </div>
             <div class="technical-right">
-                <img src="./assets/technical.svg" alt="" class="technical-img">
+                <img src="./assets/technical.svg" alt="">
             </div>
         </section>
-        <!-- Service Section -->
+
+        <!-- Services Section -->
         <section class="services">
             <div class="service">
                 <h2>
@@ -91,10 +119,10 @@
                     resolved quickly
                 </p>
             </div>
-            <div class="service-card">
-                <!-- Card 1 -->
+            <div class="services-card">
+                <!-- card 1 -->
                 <div class="card">
-                    <img src="./assets/cloud.svg" alt="">
+                    <img src="./assets/cloud.svg" alt="cloud" />
                     <h4>Unlimited Hosting</h4>
                     <p>
                         Amet minim molit non deserunt ullamco est sit <br />
@@ -103,9 +131,9 @@
                         duis enim belit molit.
                     </p>
                 </div>
-                <!-- Card 2 -->
+                <!-- card 1 -->
                 <div class="card">
-                    <img src="./assets/cloud.svg" alt="">
+                    <img src="./assets/cloud.svg" alt="cloud" />
                     <h4>Cloud Hosting</h4>
                     <p>
                         Amet minim molit non deserunt ullamco est sit <br />
@@ -114,9 +142,13 @@
                         duis enim belit molit.
                     </p>
                 </div>
-                <!-- Card 3 -->
+                <!-- card 1 -->
                 <div class="card">
-                    <img src="./assets/wordpress.svg" alt="" class="wordpress">
+                    <img
+                        class="wordpress"
+                        src="./assets/wordpress.svg"
+                        alt="cloud"
+                    />
                     <h4>Wordpress Hosting</h4>
                     <p>
                         Amet minim molit non deserunt ullamco est sit <br />
@@ -125,9 +157,9 @@
                         duis enim belit molit.
                     </p>
                 </div>
-                <!-- Card 4 -->
+                <!-- card 1 -->
                 <div class="card">
-                    <img src="./assets/vps.svg" alt="" class="vps">
+                    <img class="vps" src="./assets/vps.svg" alt="cloud" />
                     <h4>Fastest VPS</h4>
                     <p>
                         Amet minim molit non deserunt ullamco est sit <br />
@@ -136,9 +168,13 @@
                         duis enim belit molit.
                     </p>
                 </div>
-                <!-- Card 5 -->
+                <!-- card 1 -->
                 <div class="card">
-                    <img src="./assets/Domain.svg" alt="" class="domain">
+                    <img
+                        class="domain"
+                        src="./assets/Domain.svg"
+                        alt="cloud"
+                    />
                     <h4>Domain</h4>
                     <p>
                         Amet minim molit non deserunt ullamco est sit <br />
@@ -147,9 +183,13 @@
                         duis enim belit molit.
                     </p>
                 </div>
-                <!-- Card 6 -->
+                <!-- card 1 -->
                 <div class="card">
-                    <img src="./assets/Website.svg" alt="" class="website">
+                    <img
+                        class="builder"
+                        src="./assets/Website.svg"
+                        alt="cloud"
+                    />
                     <h4>Website Builder</h4>
                     <p>
                         Amet minim molit non deserunt ullamco est sit <br />
@@ -160,15 +200,14 @@
                 </div>
             </div>
         </section>
-        <!-- Pricing Section -->
-        <section class="pricing-section">
+        <section class="pricing-wrapper">
             <h2>Flexible & Transparent Pricing</h2>
             <div class="pricing">
-                <!-- Pricing card 1 -->
+                <!-- pricing card 1 -->
                 <div class="pricing-card">
-                    <div class="pricing-card-heading">
+                    <div class="card-heading">
                         <h4>Starter Pack</h4>
-                        <p>Suitable for begineers</p>
+                        <p>Suitable for beginners</p>
                     </div>
                     <div class="pricing-card-body">
                         <ul>
@@ -182,39 +221,40 @@
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Disk Space 500 MB</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Unlimited Bandwidth</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Unlimited Database</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>! Domain</p>
                             </li>
                         </ul>
                     </div>
                     <div class="pricing-card-footer">
                         <h4>$29.99 <span>/month</span></h4>
-                            <p>Cancel Anytime</p>
-                            <button class="btn-pricing">Chose Plan</button>
+                        <p>Cancel Anytime</p>
+                        <button class="btn-pricing">Chose Plan</button>
                     </div>
                 </div>
-                <!-- Pricing card 2 -->
+
+                <!-- pricing card 1 -->
                 <div class="pricing-card">
-                    <div class="pricing-card-heading">
+                    <div class="card-heading">
                         <h4>Popular Packages</h4>
-                        <p>Suitable for company organizations</p>
+                        <p>Suitable for company, orginazation</p>
                     </div>
                     <div class="pricing-card-body">
                         <ul>
@@ -222,45 +262,46 @@
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Up To 135,000 visitors/Month</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Unlimited Disk Space</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Unlimited Bandwidth</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Unlimited POP3 Email</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Unlimited Database</p>
                             </li>
                         </ul>
                     </div>
                     <div class="pricing-card-footer">
                         <h4>$59.99 <span>/month</span></h4>
-                            <p>Cancel Anytime</p>
-                            <button class="btn">Chose Plan</button>
+                        <p>Cancel Anytime</p>
+                        <button class="btn">Chose Plan</button>
                     </div>
                 </div>
-                <!-- Pricing card 3 -->
+
+                <!-- pricing card 1 -->
                 <div class="pricing-card">
-                    <div class="pricing-card-heading">
-                        <h4>Business Packages</h4>
-                        <p>Suitable for business websites</p>
+                    <div class="card-heading">
+                        <h4>Buisness package</h4>
+                        <p>Suitable for buisness websites</p>
                     </div>
                     <div class="pricing-card-body">
                         <ul>
@@ -268,38 +309,38 @@
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Up To 180,000 visitors/Month</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Disk Space 500 MB</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Unlimited Bandwidth</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>Unlimited Database</p>
                             </li>
                             <li>
                                 <span>
                                     <i class="fa-solid fa-check"></i>
                                 </span>
-                                <p>Up To 15,000 visitors/Month</p>
+                                <p>! Domain</p>
                             </li>
                         </ul>
                     </div>
                     <div class="pricing-card-footer">
                         <h4>$99.99 <span>/month</span></h4>
-                            <p>Cancel Anytime</p>
-                            <button class="btn-pricing">Chose Plan</button>
+                        <p>Cancel Anytime</p>
+                        <button class="btn-pricing">Chose Plan</button>
                     </div>
                 </div>
             </div>
@@ -376,22 +417,24 @@
             </div>
         </section>
         <!-- Register Section -->
-        <section class="register">
+        <!-- <section class="register">
             <div class="register-left">
-                <h1 class="register-heading">Quit Worrying About <br> 
-                    Oce-Hosting Services</h1>
-                <p class="register-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                     Fugiat veniam reprehenderit rem quos nesciunt perferendis ipsam id eveniet, adipisci dicta.</p>
+                <h1>Quit Worrying about <br>
+                    Oce-Hosting services
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                    Fugiat veniam reprehenderit rem quos nesciunt perferendis ipsam id eveniet, adipisci dicta.</p>
             </div>
             <div class="register-right">
-                <button class="register-btn">Register Now</button>
+                <button class="register-btn btn">Register now</button>
             </div>
-        </section>
-        <footer class="footer-container">
-            <div class="logo-container">
-                <img src="./assets/Logo.png" alt="logo" class="logo">
+        </section> -->
+        <!-- Footer Section -->
+        <!-- <footer class="footer-container">
+            <div class="logo-footer">
+                <img src="./assets/Logo.png" alt="logo">
                 <p class="logo-text">Lorem ipsum dolor sit amet <br>
-                consectetur adipisicing elit. Necess, <br>                         aperiam!
+                    consectetur adipisicing elit. Necess, <br>                         aperiam!
                     <br>
                     Lorem ipsum dolor sit amet
                 </p>
@@ -399,27 +442,27 @@
             <div class="menu-footer">
                 <h3 class="menu list-heading">Menu</h3>
                 <ul>
-                    <li class="list-item">Home</li>
-                    <li class="list-item">Covid19</li>
-                    <li class="list-item">Vaccine Info</li>
-                    <li class="list-item">Contact Us</li>
+                    <li class="list-item-f">Home</li>
+                    <li class="list-item-f">Covid19</li>
+                    <li class="list-item-f">Vaccine</li>
+                    <li class="list-item-f">Contact</li>
                 </ul>
             </div>
             <div class="link-footer">
                 <h3 class="link list-heading">Links</h3>
                 <ul>
-                    <li class="list-item">Partners</li>
-                    <li class="list-item">Careers</li>
-                    <li class="list-item">Press</li>
-                    <li class="list-item">Community</li>
+                    <li class="list-item-f">Partners</li>
+                    <li class="list-item-f">Careers</li>
+                    <li class="list-item-f">Press</li>
+                    <li class="list-item-f">Community</li>
                 </ul>
             </div>
             <div class="overview-footer">
                 <h3 class="overview list-heading">Overview</h3>
                 <ul>
-                    <li class="list-item">Terms & Conditions</li>
-                    <li class="list-item">Privacy Policy</li>
-                    <li class="list-item">FAQ</li>
+                    <li class="list-item-f">Terms & Conditions</li>
+                    <li class="list-item-f">Privacy Policy</li>
+                    <li class="list-item-f">FAQ</li>
                 </ul>
             </div>
             <div class="social-footer">
@@ -430,8 +473,109 @@
                     <img src="./assets/youtube.svg" alt="youtube" class="youtube">
                     <img src="./assets/linkedin.svg" alt="linkedin" class="linkedin">
                 </div>
-            </div>            
-        </footer>
-    </div>  
+            </div>
+        </footer> -->
+
+        <div class="footer-wrapper">
+            <div class="footer-container">
+                <div class="footer">
+                    <footer class="footer-left">
+                        <h1>
+                            Quit Worrying about <br />
+                            Oce-Hosting services
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.<br />
+                            repudiandae tempora facilis
+                        </p>
+                    </footer>
+                    <footer class="footer-right">
+                        <button class="footer-btn">Register Now</button>
+                    </footer>
+                </div>
+                <div class="bottom-footer">
+                    <div class="logo-container">
+                        <div class="logo">
+                            <img src="./assets/Logo.png" alt="logo" />
+                            <p>
+                                Lorem ipsum dolor, sit amet <br />
+                                consectetur adipisicing elit. Officia,
+                                officiis?
+                                <br />
+                                Lorem ipsum dolor sit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-navbar">
+                        <div>
+                            <h5>Menu</h5>
+                            <ul>
+                                <li>Home</li>
+                                <li>Covid9</li>
+                                <li>Vaccine info</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>Links</h5>
+                            <ul>
+                                <li>Parteners</li>
+                                <li>Careers</li>
+                                <li>Press</li>
+                                <li>Community</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>Overview</h5>
+                            <ul>
+                                <li>Terms & Conditions</li>
+                                <li>Privacy Policy</li>
+                                <li>FAQ</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>Social Media</h5>
+                            <ul>
+                                <li>
+                                    <img
+                                        src="./assets/facebook.svg"
+                                        alt="fb-icon"
+                                    />
+                                </li>
+                                <li>
+                                    <img
+                                        src="./assets/instagram.svg"
+                                        alt="ig-icon"
+                                    />
+                                </li>
+                                <li>
+                                    <img
+                                        src="./assets/youtube.svg"
+                                        alt="yt"
+                                    />
+                                </li>
+                                <li>
+                                    <img
+                                        src="./assets/linkedin.svg"
+                                        alt="linked-in"
+                                    />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        const mobileNavBar = document.querySelector(".mobile-list");
+        hamburger.addEventListener("click", () => {
+            mobileNavBar.classList.toggle("show-navbar");
+        });
+    </script>
 </body>
 </html>
