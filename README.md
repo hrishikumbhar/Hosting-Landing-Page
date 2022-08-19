@@ -16,8 +16,8 @@
 
 ### This project took around 8 hours to complete.
 
-### Project Link : [Link](https://hosting-landing-page-dashboard.netlify.app/)
+### Project Link : [Link](https://proj-11-host-landing-page.netlify.app/)
 
 ### Screenshot
 
-![](./screenshot/Proj11.png)
+![](./screenshot/PROJ_11.png)
